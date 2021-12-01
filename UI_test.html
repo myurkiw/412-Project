@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>CSE 412 Final Project</h1>
+<h2>Menu</h2>
+
+  
+  <form action="/action_page.php">
+  
+    <label for ="query">Query:</label>
+    <select name="query" id ="query">
+      <option value="" selected></option>
+      <option value="select">SELECT</option>
+      <option value="add">ADD</option>
+      <option value="update">UPDATE</option>
+      <option value="delete">DELETE</option>
+    </select>
+    <br><br>
+  
+    <label for="name">Name:</label>
+    <select name="name" id="name">
+      <option value="" selected></option>
+      <option value="a-d">A-D</option>
+      <option value="e-j">E-J</option>
+      <option value="k-p">K-P</option>
+      <option value="q-v">Q-V</option>
+      <option value="w-z">W-Z</option>
+    </select>
+    <br><br>
+    
+    <label for="id">ID Number:</label>
+    <input type="text" id="id" name="id" value=""><br><br>
+    
+     <input type="submit" value="Submit">
+     <br><br>
+</form>
+
+  <!--
+  <button onclick="runQuery()">Run Query</button>
+  
+  <p id="demo"></p>
+  
+  <script>
+   function runQuery() {
+     document.getElementById("demo").innerHTML = "Complete!";
+   }
+  </script>
+-->
+
+</body>
+</html>
